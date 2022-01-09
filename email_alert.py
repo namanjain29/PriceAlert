@@ -2,8 +2,8 @@ import smtplib
 from email.message import EmailMessage
 
 def alert_system(product, link):
-    email_id = 'jainnaman@29@yahoo.com'
-    email_pass = 'samvad2912'
+    email_id = 'xxxx@29@yahoo.com'
+    email_pass = 'xxxxx'
 
     msg = EmailMessage()
     msg['Subject'] = 'Price Drop Alert'
